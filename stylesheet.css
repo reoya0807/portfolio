@@ -1,7 +1,13 @@
-.header {
-  background-color: #26d0c9;
+body {
+  margin: 0;
+}
+
+header {
+  background-color: rgba(34, 49, 52, 0.8);
   color: #fff;
   height: 90px;
+  float: left;
+  width: 100%;
 }
 
 .header-logo {
@@ -17,30 +23,48 @@
 
 .header-right a {
   padding: 10px;
+  color: white;
 }
 
-.main {
-  padding: 100px 80px;
+.index-main {
+  padding-top: 200px;
+  background-image: url(home.jpg);
+  background-size: cover;
 }
 
-.copy-container h1 {
-  font-size: 140px;
+.bio-main {
+  padding-top: 200px;
+  background-image: url(biography.jpg);
+  background-size: cover;
+}
+
+.copy-container {
+  font-size: 70px;
+  text-align: center;
+  color: black;
+  opacity: 0.7;
+  padding-bottom: 125px;
 }
 
 .contents {
-  height: 200px;
-  margin: 50px;
+  height: 190px;
+  padding: 40px 0 0 110px;
+  background-color: white;
+}
+
+.contents h2 {
+  color: rgba(34, 110, 147, 1);
 }
 
 .contents li {
   list-style-type: square;
 }
 
-.footer {
+footer {
   background-color: #2f5167;
   color: #fff;
   height: 20px;
-  padding: 20px;
+  padding: 20px 0 20px 40px;
 }
 
 .footer-logo {
