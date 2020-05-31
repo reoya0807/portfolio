@@ -52,6 +52,57 @@ header {
   background-color: white;
 }
 
+.contact-contents {
+  padding-top: 140px;
+  margin: 0 auto 70px;
+  width: 1000px;
+}
+
+.contact-contents h2 {
+  color: rgba(34, 110, 147, 1);
+  font-size: 34px;
+  text-align: center;
+}
+
+.contact-contents p, input, textarea {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-content {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-contents p {
+  font-size: 18px;
+  margin-top: 42px;
+}
+
+.in-box {
+  border: 2px solid rgba(34, 110, 147, 1);
+  padding: 7px;
+  width: 680px;
+}
+
+.sent-box {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 40px;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(34, 110, 147, 0.7);
+  cursor: pointer;
+  display: block;
+  border-radius: 7px;
+}
+
+.sent-box:hover {
+  background-color: rgba(34, 110, 147, 1);
+}
+
 .contents h2 {
   color: rgba(34, 110, 147, 1);
 }
@@ -70,4 +121,11 @@ footer {
 .footer-logo {
   float: left;
   font-size: 14px;
+}
+
+.send-contents {
+  text-align: center;
+  font-size: 34px;
+  padding-top: 300px;
+  height: 400px;
 }
