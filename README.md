@@ -1,2 +1,2 @@
-# yagireoya-home
-ポートフォリオのトップページです。
+# Portfolio - Yagi Reoya
+ポートフォリオサイトです。
