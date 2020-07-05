@@ -38,6 +38,12 @@ header {
   background-size: cover;
 }
 
+.work-main {
+  padding-top: 200px;
+  background-image: url(work.jpg);
+  background-size: cover;
+}
+
 .copy-container {
   font-size: 70px;
   text-align: center;
