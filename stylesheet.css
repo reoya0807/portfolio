@@ -58,6 +58,12 @@ header {
   background-color: white;
 }
 
+@media (max-width: 1370px) {
+  .contents img {
+    display: none;
+  }
+}
+
 .contact-contents {
   padding-top: 140px;
   margin: 0 auto 70px;
